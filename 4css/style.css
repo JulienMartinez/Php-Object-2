@@ -1,0 +1,121 @@
+body {
+    background: url("/1media/background.jpg") top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ctn-logo {
+    width: 25%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.rezize {
+    width: 51%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+section {
+    display: flex;
+    width: 48%;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.toytop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 27%;
+    justify-content: space-between;
+}
+
+.toydetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.between {
+    width: 50%;
+    margin: 10px;
+}
+
+.img-sql {
+    width: 100%;
+}
+
+.name {
+    margin: 10px;
+}
+
+.price {
+    margin: 10px;
+}
+
+
+/*****************  NAV BAR ******************/
+
+nav {
+    background-color: #0056af;
+    color: white;
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    margin: 15px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 0 10px;
+}
+
+.container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: #91bee5;
+}
+
+li:hover ul {
+    display: block;
+    color: black;
+    background-color: #b9d1f3;
+}
